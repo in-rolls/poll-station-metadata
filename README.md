@@ -10,29 +10,36 @@ The final CSV has the following columns:
 4. `eroll, supplementary` (There can be two links. If there is one, link is put under eroll. If there is a supplementary eroll, second link goes under it. **Some links are dead.**)
 5. data on polling station: 
 
-    `Building Quality, 
-    PS with less than 20 sqmts, 
-    PS buildings is dilapidated or dangerous,
-    PS is in Govt building/Premises,
-    PS located in an institution/religious place,
-    PS in School/College building,
-    PS in ground floor,
-    PS having Separate door for Entry and Exit,
-    political party office situated within 200 meters of PS premises,
-    PS is having drinking water facilities in the premises,
-    PS buildings having Electricity Supply,
-    PS buildings with Proper lighting, Fixtures etc.,
-    PS buildings with Toilet(Male/Female),
-    PS with ramps For Disable,
-    PS buildings with Adequate Furniture,
-    PS with shade/shelter for protection from sun/rain etc.,
-    PS with Proper road connectivity,
-    PS where voters have to cross river/valley/ravine or natural obstacle to reach PS,
-    PS with Landline Telephone/Fax Connection,
-    PS with Mobile connectivity,
-    PS with Internet facility,
-    PS with Proper signage of Building name and address,
-    PS with in LWE/insurgency affected area,
-    PS With in forest/semi-forest area,
-    PS in vulnerable critical location,
+    `Building Quality,
+    PS with less than 20 sqmts,  
+    PS buildings is dilapidated or dangerous,  
+    PS is in Govt building/Premises,  
+    PS located in an institution/religious place,  
+    PS in School/College building,  
+    PS in ground floor,  
+    PS having Separate door for Entry and Exit,  
+    political party office situated within 200 meters of PS premises,  
+    PS is having drinking water facilities in the premises,  
+    PS buildings having Electricity Supply,  
+    PS buildings with Proper lighting, Fixtures etc.,  
+    PS buildings with Toilet(Male/Female),  
+    PS with ramps For Disable,  
+    PS buildings with Adequate Furniture,  
+    PS with shade/shelter for protection from sun/rain etc.,  
+    PS with Proper road connectivity,  
+    PS where voters have to cross river/valley/ravine or natural obstacle to reach PS,  
+    PS with Landline Telephone/Fax Connection,  
+    PS with Mobile connectivity,  
+    PS with Internet facility,  
+    PS with Proper signage of Building name and address,  
+    PS with in LWE/insurgency affected area,  
+    PS With in forest/semi-forest area,  
+    PS in vulnerable critical location,  
     sensitive/hyper-sensitive PS`
+
+### Running the Script
+
+```
+pip install -r requirements.txt
+python poll_station_metadata.py
+```
