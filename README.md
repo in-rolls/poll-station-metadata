@@ -1,5 +1,7 @@
 ## MetaData on Polling Stations
 
+### 🚫 This repository is a public read only archive. The code was written to scrape data at a point in time.
+
 Data on 989,624 polling stations from 32 states or union territories from http://psleci.nic.in/Default.aspx
 
 ## Data
